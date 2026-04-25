@@ -1,3 +1,6 @@
+## GitHub Repository
+🔗 https://github.com/hussainali04/timeoff-microservice
+
 # Time-Off Microservice (NestJS + SQLite)
 
 Production-grade REST API for managing employee time-off requests while keeping leave balances in sync with an external HCM (e.g., Workday/SAP). The HCM is the source of truth for balances and may change independently of this service (anniversary grants, year resets, manual adjustments). This service caches balances locally for performance, validates availability before reserving days, and reconciles/flags mismatches for manual review.
