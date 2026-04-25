@@ -1,0 +1,11 @@
+{
+  "name": "mock-hcm",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
+
